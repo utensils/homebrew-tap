@@ -1,9 +1,9 @@
 cask "claudette" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.28.0"
-  sha256 arm:   "50be03a4a01d7bcfbd41c1727930e66ba384d974628a181c7f43f8bd6be07a61",
-         intel: "7276ef01152071863bc7d07afda109c35be887add9ebdefec89399390fbcb0ab"
+  version "0.29.0"
+  sha256 arm:   "bdd1b4f95c6206af9b3f53b07bd3f764641368cd2488f5cf7b5cd7958cc98078",
+         intel: "868cab7f431884b141695a3d4df89e23c00d922fcfdca749c965495a43ec22ae"
 
   url "https://github.com/utensils/Claudette/releases/download/v#{version}/Claudette_#{version}_#{arch}.dmg"
   name "Claudette"
